@@ -223,10 +223,11 @@ export class LayoutRefinementSolver extends BaseSolver {
       })
 
       texts.push({
-        position: { x: placement.x, y: placement.y },
+        x: placement.x,
+        y: placement.y,
         text: chipId,
         fontSize: 0.15,
-        align: "center",
+        anchorSide: "center",
       })
     }
 
